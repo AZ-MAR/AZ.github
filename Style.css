@@ -1,0 +1,115 @@
+.Body_acceuil{
+    background: linear-gradient(to right,#04eeb3,#f7f8f9);
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.En_tete{
+    background-color: #09cbf7;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+.animer{
+    font-size: 2em;
+    color: #042b4a;
+    opacity: 0;  /* Commence invisible */
+    animation: fadeIn 3s forwards;  /* Animation de 3 secondes */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* La phrase commence en bas */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* La phrase arrive à sa position finale */
+    }
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Pied_de_la_page{
+    background-color: #09cbf7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.Contact{
+    background-attachment: fixed;
+    background: linear-gradient(to right,#09cbf7,#f7f8f9);
+    
+}
+.Body_apropos{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header{
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+}
+.contenue {
+    margin: 20px auto;
+    padding: white;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+h2{
+    color: #004080;
+}
+.section {
+    margin-bottom: 20px;
+}
+.valeurs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.valeur {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+.valeur h3 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
